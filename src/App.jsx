@@ -31,6 +31,9 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+        <h1>
+            ADD COMMIT 1 - master branch
+        </h1>
         <Section />
         <Input />
     </>
