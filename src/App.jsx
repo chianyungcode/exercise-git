@@ -34,6 +34,9 @@ function App() {
         <h1>
             ADD COMMIT 1 - master branch
         </h1>
+        <h1>
+            ADD COMMIT 2 - master branch
+        </h1>
         <Section />
         <Input />
     </>
