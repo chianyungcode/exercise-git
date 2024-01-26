@@ -1,5 +1,5 @@
 
-const Section = () => {
+const Section= () => {
     return (
         <div className="section">Section 1</div>
     )

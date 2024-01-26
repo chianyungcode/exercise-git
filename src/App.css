@@ -5,6 +5,10 @@
   text-align: center;
 }
 
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -45,4 +49,21 @@
   background-color: red;
   max-width: 70rem;
   padding: 4rem 8rem;
+}
+
+.formInput {
+  background-color: #888888;
+  width: 100%;
+  min-height: 16rem;
+  padding: 2rem;
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.label {
+  background-color: #ffffff;
+  padding: 1rem
 }
